@@ -6,12 +6,6 @@ services:
                 ports:
                         - "8098:8080"
                 volumes:
-                        - persistent_volume:/app/volumes
+                        - ./volumes:/volumes
+                        - ./instance:/instance
                 restart: unless-stopped
-volumes:
-  persistent_volume:
-    driver: local
-    driver_opts:
-      o: bind
-      type: none
-      device: /home/ubuntu/gacc-flask/volumes

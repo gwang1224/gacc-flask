@@ -1,5 +1,7 @@
 ## [Flask Portfolio Starter](https://nighthawkcodingsociety.com/projectsearch/details/Flask%20Portfolio%20Starter)
 Runtime link: https://portfolio.nighthawkcodingsociety.com/
+## New location for dynamic data
+> An SQL database is an example of dynamic data.  SQLAlchemy 3.x and beyond stores database in the app’s instance folder.  The volumes subdirectory with in this folder is made to be consistent with Docker terminology.
 ### Idea
 Starter code should be fun and practical.
 ### Visual thoughts
